@@ -9,7 +9,8 @@ from scipy import ndimage
 import matplotlib.pyplot as plt
 
 
-
+srcDir = "/Users/elyssamcmaster/Desktop/IFAC/Rome"
+destDir = "Users/elyssamcmaster/Desktop/IFAC/ResizedImages"
 
 def moveImages(srcDir, destDir):
         """ 
