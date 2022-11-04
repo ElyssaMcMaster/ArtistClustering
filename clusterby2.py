@@ -10,7 +10,7 @@ X = resizeimages.imagearray
 X= np.array(X).reshape(resizeimages.IMG_SIZE, resizeimages.IMG_SIZE)
 print(X)
 
-kmeans = KMeans(n_clusters=2)
+kmeans = KMeans(n_clusters=3)
 
 kmeans.fit(X)
 
