@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt 
 from matplotlib import style
-import resizeimages
+import PCAandKmeans
 from sklearn.decomposition import PCA
 #from scipy.misc import imread
 #from matplotlib.pyplot import imread
